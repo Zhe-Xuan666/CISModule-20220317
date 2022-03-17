@@ -1,0 +1,17 @@
+update.2022/02/25:
+modify the program flow, delete CUDA file. 
+now you can access image data via pointer.
+
+update.2022/03/01:
+add cvt_ByteOrder func. to convert byte order.
+add a new folder to measure execution time.
+
+update.2022/03/10:
+add new debug message printout to trace code.
+add new parameter into cvt_ByteOrder func. to switch different pixel_bit case.
+modify 002_make_executableFile sample code to while loop struct.
+in 002_make_executableFile folder, add new conditional to detect. if data is same 5 times, stop write file.
+
+update.2022/03/17:
+modify 001_make_staticLib/src/get_image.c, change process flow. Solve the problem of receiving photos abnormally.
+add RAW6/7/8/16/20 into cvt_ByteOrder func.

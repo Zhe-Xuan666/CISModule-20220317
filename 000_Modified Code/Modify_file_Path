@@ -1,0 +1,23 @@
+CROSS COMPILE:
+device tree Parameter:
+Path:
+(YOUR_PATH)/hardware/nvidia/platform/t19x/common/kernel-dts/t19x-common-modules/tegra194-camera-e3326-a00.dtsi
+
+Without i2c:
+dt:
+Path:
+(YOUR_PATH)/hardware/nvidia/platform/t19x/galen/kernel-dts/tegra194-p2888-0001-p2822-0000.dts
+(YOUR_PATH)/hardware/nvidia/platform/t19x/galen/kernel-dts/common/tegra194-p2822-0000-camera-e3326-a00.dtsi
+
+
+
+LOCAL BUILD:
+Without i2c:
+Sensor Driver:
+Path:
+/usr/src/kernel/nvidia/drivers/media/i2c/ov5693.c
+/usr/src/kernel/nvidia/drivers/media/i2c/ov5693_mode_tbls.h
+
+Support C-PHY:
+Path:
+/usr/src/kernel/nvidia/drivers/media/platform/tegra/camera/nvcsi/csi5_fops.c

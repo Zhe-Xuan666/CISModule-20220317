@@ -1,0 +1,8 @@
+The file in src Folder is staticLib's source code.
+To build the staticLib, please follow the below Step:
+
+Step1. modify the target PATH(POUT) in build_static
+
+Step2. execute build_static.sh
+
+Step3. Success!
